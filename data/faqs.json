@@ -1,0 +1,44 @@
+{
+  "faqs": [
+    {
+      "id": 1,
+      "question": "What makes this platform different from competitors?",
+      "answer": "Our platform combines enterprise-grade security with intuitive design, offering advanced analytics, seamless collaboration tools, and extensive API integration capabilities that scale with your business needs."
+    },
+    {
+      "id": 2,
+      "question": "How secure is my data on your platform?",
+      "answer": "We implement industry-leading security measures including end-to-end encryption, SOC 2 compliance, regular security audits, and enterprise-grade infrastructure to ensure your data remains protected at all times."
+    },
+    {
+      "id": 3,
+      "question": "Can I integrate with my existing tools and workflows?",
+      "answer": "Yes! We offer extensive API documentation, webhook support, and pre-built integrations with popular tools like Slack, GitHub, Jira, and many more. Custom integrations can also be developed."
+    },
+    {
+      "id": 4,
+      "question": "What kind of support do you provide?",
+      "answer": "We offer 24/7 customer support through multiple channels including live chat, email, and phone. Enterprise customers receive dedicated support with guaranteed response times and custom onboarding."
+    },
+    {
+      "id": 5,
+      "question": "Is there a free trial available?",
+      "answer": "Yes, we offer a 30-day free trial for all paid plans with full access to features. No credit card required to start your trial, and you can upgrade or cancel at any time."
+    },
+    {
+      "id": 6,
+      "question": "How does pricing work for larger teams?",
+      "answer": "Our pricing scales with your team size and usage. We offer volume discounts for larger teams and custom enterprise pricing for organizations with specific requirements."
+    },
+    {
+      "id": 7,
+      "question": "Can I export my data if I decide to leave?",
+      "answer": "Absolutely. We believe in data portability and provide easy export options in multiple formats. Your data belongs to you, and we make it simple to take it with you."
+    },
+    {
+      "id": 8,
+      "question": "Do you offer training and onboarding?",
+      "answer": "Yes, we provide comprehensive onboarding for all customers, including video tutorials, documentation, and live training sessions. Enterprise customers receive custom onboarding programs."
+    }
+  ]
+}
