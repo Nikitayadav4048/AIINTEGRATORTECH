@@ -301,14 +301,16 @@ export default function ContactPage() {
                     boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)'
                   }}
                   onMouseEnter={(e) => {
-                    e.target.style.transform = 'scale(1.02)'
-                    e.target.style.backgroundColor = '#f9fafb'
-                    e.target.style.borderColor = '#9ca3af'
+                    const target = e.target as HTMLButtonElement
+                    target.style.transform = 'scale(1.02)'
+                    target.style.backgroundColor = '#f9fafb'
+                    target.style.borderColor = '#9ca3af'
                   }}
                   onMouseLeave={(e) => {
-                    e.target.style.transform = 'scale(1)'
-                    e.target.style.backgroundColor = '#ffffff'
-                    e.target.style.borderColor = '#d1d5db'
+                    const target = e.target as HTMLButtonElement
+                    target.style.transform = 'scale(1)'
+                    target.style.backgroundColor = '#ffffff'
+                    target.style.borderColor = '#d1d5db'
                   }}
                 >
                   <Send className="w-5 h-5" style={{ color: '#000000' }} />
@@ -389,12 +391,14 @@ export default function ContactPage() {
                 boxShadow: '0 4px 15px rgba(255, 255, 255, 0.2)'
               }}
               onMouseEnter={(e) => {
-                e.target.style.backgroundColor = '#f3f4f6'
-                e.target.style.transform = 'scale(1.05)'
+                const target = e.target as HTMLButtonElement
+                target.style.backgroundColor = '#f3f4f6'
+                target.style.transform = 'scale(1.05)'
               }}
               onMouseLeave={(e) => {
-                e.target.style.backgroundColor = '#ffffff'
-                e.target.style.transform = 'scale(1)'
+                const target = e.target as HTMLButtonElement
+                target.style.backgroundColor = '#ffffff'
+                target.style.transform = 'scale(1)'
               }}
             >
               Close
