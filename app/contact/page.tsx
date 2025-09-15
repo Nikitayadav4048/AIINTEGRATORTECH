@@ -1,5 +1,5 @@
 "use client"
-
+// Fixed TypeScript errors for production build
 import { motion } from "framer-motion"
 import { Mail, Phone, MapPin, Send, Clock, MessageSquare, Calendar, Linkedin, Twitter, Github } from "lucide-react"
 import { useState } from "react"
