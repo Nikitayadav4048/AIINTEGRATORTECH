@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import { ExternalLink, Github } from "lucide-react"
+import { ClientLogos } from "@/components/sections/client-logos"
 
 const projects = [
   {
@@ -75,10 +76,10 @@ export default function PortfolioPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-gray-900 rounded-xl p-6 hover:bg-gray-800 hover:scale-110 hover:shadow-2xl transition-all duration-300 cursor-pointer"
+                className="bg-green-900 rounded-xl p-6 hover:bg-green-800 hover:scale-110 hover:shadow-2xl transition-all duration-300 cursor-pointer"
               >
                 <div className="mb-4">
-                  <span className="text-sm text-gray-400 bg-gray-800 px-3 py-1 rounded-full">
+                  <span className="text-sm text-gray-400 bg-green-800 px-3 py-1 rounded-full">
                     {project.category}
                   </span>
                 </div>
@@ -95,7 +96,7 @@ export default function PortfolioPage() {
                   {project.tech.map((tech, idx) => (
                     <span
                       key={idx}
-                      className="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded"
+                      className="text-xs bg-green-800 text-gray-300 px-2 py-1 rounded"
                     >
                       {tech}
                     </span>
@@ -108,6 +109,8 @@ export default function PortfolioPage() {
           </div>
         </div>
       </section>
+      
+      <ClientLogos />
     </main>
   )
 }
