@@ -223,7 +223,7 @@ export default function AboutPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 + index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-gray-800 p-8 rounded-xl text-center hover:bg-gray-700 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer"
+                className="bg-zinc-800 p-8 rounded-xl text-center hover:bg-zinc-700 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer border border-zinc-700/30 shadow-lg"
               >
                 <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <value.icon className="w-8 h-8 text-black" />
@@ -264,7 +264,7 @@ export default function AboutPage() {
                 viewport={{ once: true }}
                 className="text-center"
               >
-                <div className="bg-gray-900 rounded-2xl p-8 hover:bg-gray-800 hover:scale-105 transition-all duration-300 cursor-pointer">
+                <div className="bg-zinc-900 rounded-2xl p-8 hover:bg-zinc-800 hover:scale-105 transition-all duration-300 cursor-pointer border border-zinc-700/30 shadow-xl">
                   <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6">
                     <achievement.icon className="w-8 h-8 text-black" />
                   </div>
