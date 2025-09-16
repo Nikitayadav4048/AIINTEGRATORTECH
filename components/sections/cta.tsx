@@ -7,7 +7,7 @@ export function CTA() {
   const router = useRouter()
 
   return (
-    <section className="py-20 bg-gradient-to-br from-blue-900 via-purple-900 to-indigo-900">
+    <section className="py-20 bg-green-900">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
