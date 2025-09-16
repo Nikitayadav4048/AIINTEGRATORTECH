@@ -41,7 +41,7 @@ export function Features() {
   const router = useRouter()
 
   return (
-    <section className="py-20 bg-gray-900">
+    <section className="py-20 bg-green-900">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -66,7 +66,7 @@ export function Features() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="bg-gray-800 p-8 rounded-xl text-center hover:bg-gray-700 transition-colors cursor-pointer"
+              className="bg-green-800 p-8 rounded-xl text-center hover:bg-green-700 transition-colors cursor-pointer"
               onClick={() => router.push('/contact')}
             >
               <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4">

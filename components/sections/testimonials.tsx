@@ -43,7 +43,7 @@ export function Testimonials() {
   }
 
   return (
-    <section className="py-20 bg-gray-800">
+    <section className="py-20 bg-black">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -67,7 +67,7 @@ export function Testimonials() {
           transition={{ duration: 0.5 }}
           className="max-w-3xl mx-auto mb-12"
         >
-          <div className="bg-gray-900 p-6 rounded-xl text-center">
+          <div className="bg-green-900 p-6 rounded-xl text-center">
             <div className="flex justify-center mb-4">
               {[...Array(testimonials[currentIndex].rating)].map((_, i) => (
                 <Star key={i} className="w-6 h-6 text-yellow-400 fill-current" />
@@ -92,7 +92,7 @@ export function Testimonials() {
         <div className="flex items-center justify-center space-x-4">
           <button
             onClick={prevTestimonial}
-            className="p-2 bg-gray-700 text-white rounded-full hover:bg-gray-600 transition-colors"
+            className="p-2 bg-green-700 text-white rounded-full hover:bg-green-600 transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
           </button>
@@ -103,7 +103,7 @@ export function Testimonials() {
                 key={index}
                 onClick={() => setCurrentIndex(index)}
                 className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                  index === currentIndex ? 'bg-white' : 'bg-gray-600'
+                  index === currentIndex ? 'bg-white' : 'bg-green-600'
                 }`}
               />
             ))}
@@ -111,7 +111,7 @@ export function Testimonials() {
           
           <button
             onClick={nextTestimonial}
-            className="p-2 bg-gray-700 text-white rounded-full hover:bg-gray-600 transition-colors"
+            className="p-2 bg-green-700 text-white rounded-full hover:bg-green-600 transition-colors"
           >
             <ArrowRight className="w-5 h-5" />
           </button>

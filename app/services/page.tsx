@@ -161,7 +161,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Services Grid */}
-      <section className="py-20 bg-gray-900">
+      <section className="py-20 bg-green-900">
         <div className="container mx-auto px-4">
           {/* Desktop Grid */}
           <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -172,7 +172,7 @@ export default function ServicesPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-gray-800 p-8 rounded-xl cursor-pointer hover:bg-gray-700 transition-colors"
+                className="bg-green-800 p-8 rounded-xl cursor-pointer hover:bg-green-700 transition-colors"
                 onClick={() => router.push(`/services/${service.id}`)}
               >
                 <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6">
@@ -197,7 +197,7 @@ export default function ServicesPage() {
                   </div>
                 </div>
                 
-                <div className="bg-gray-900 p-4 rounded-lg">
+                <div className="bg-green-900 p-4 rounded-lg">
                   <div className="flex items-center justify-between">
                     <span className="text-sm font-medium text-gray-300">Delivery Time:</span>
                     <span className="text-lg font-semibold text-white">{service.deliveryRate}</span>
@@ -217,7 +217,7 @@ export default function ServicesPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className="bg-gray-800 p-6 rounded-xl cursor-pointer hover:bg-gray-700 transition-colors flex-shrink-0"
+                  className="bg-green-800 p-6 rounded-xl cursor-pointer hover:bg-green-700 transition-colors flex-shrink-0"
                   style={{width: '280px'}}
                   onClick={() => router.push(`/services/${service.id}`)}
                 >
@@ -243,7 +243,7 @@ export default function ServicesPage() {
                     </div>
                   </div>
                   
-                  <div className="bg-gray-900 p-3 rounded-lg">
+                  <div className="bg-green-900 p-3 rounded-lg">
                     <div className="flex items-center justify-between">
                       <span className="text-xs font-medium text-gray-300">Delivery:</span>
                       <span className="text-sm font-semibold text-white">{service.deliveryRate}</span>
@@ -257,7 +257,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Process Section */}
-      <section className="py-20 bg-gray-800">
+      <section className="py-20 bg-black">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -285,7 +285,7 @@ export default function ServicesPage() {
                 viewport={{ once: true }}
                 className="text-center"
               >
-                <div className="bg-gray-900 p-8 rounded-xl">
+                <div className="bg-green-900 p-8 rounded-xl">
                   <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6">
                     <step.icon className="w-10 h-10 text-black" />
                   </div>
@@ -303,7 +303,7 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gray-900">
+      <section className="py-20 bg-green-900">
         <div className="container mx-auto px-4 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}

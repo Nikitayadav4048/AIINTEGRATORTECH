@@ -39,7 +39,7 @@ export function FAQ() {
   }
 
   return (
-    <section className="py-20 bg-gray-900">
+    <section className="py-20 bg-green-900">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -64,10 +64,10 @@ export function FAQ() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="bg-gray-800 rounded-xl overflow-hidden"
+              className="bg-green-800 rounded-xl overflow-hidden"
             >
               <button
-                className="w-full p-6 text-left flex items-center justify-between hover:bg-gray-700 transition-colors"
+                className="w-full p-6 text-left flex items-center justify-between hover:bg-green-700 transition-colors"
                 onClick={() => toggleFaq(faq.id)}
               >
                 <h3 className="text-lg font-semibold text-white pr-4">
