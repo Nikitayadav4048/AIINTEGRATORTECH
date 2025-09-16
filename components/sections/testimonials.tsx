@@ -50,12 +50,12 @@ export function Testimonials() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center max-w-3xl mx-auto mb-16"
+          className="text-center max-w-3xl mx-auto mb-12"
         >
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-white mb-6">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-white mb-4">
             What Our Clients Say
           </h2>
-          <p className="text-xl text-gray-300 leading-relaxed">
+          <p className="text-lg text-gray-300 leading-relaxed">
             Don't just take our word for it. Here's what our clients have to say about their experience.
           </p>
         </motion.div>
@@ -65,23 +65,23 @@ export function Testimonials() {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
-          className="max-w-4xl mx-auto mb-16"
+          className="max-w-3xl mx-auto mb-12"
         >
-          <div className="bg-gray-900 p-8 rounded-xl text-center">
+          <div className="bg-gray-900 p-6 rounded-xl text-center">
             <div className="flex justify-center mb-4">
               {[...Array(testimonials[currentIndex].rating)].map((_, i) => (
                 <Star key={i} className="w-6 h-6 text-yellow-400 fill-current" />
               ))}
             </div>
-            <p className="text-xl text-white mb-6">
+            <p className="text-lg text-white mb-4 leading-relaxed">
               "{testimonials[currentIndex].content}"
             </p>
             <div className="flex items-center justify-center">
               <div>
-                <h4 className="text-lg font-semibold text-white">
+                <h4 className="text-base font-semibold text-white">
                   {testimonials[currentIndex].name}
                 </h4>
-                <p className="text-gray-300">
+                <p className="text-sm text-gray-300">
                   {testimonials[currentIndex].role} at {testimonials[currentIndex].company}
                 </p>
               </div>
