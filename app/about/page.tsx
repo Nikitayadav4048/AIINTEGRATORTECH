@@ -49,9 +49,9 @@ export default function AboutPage() {
   const router = useRouter()
 
   return (
-    <main className="min-h-screen bg-black text-white">
+    <main className="min-h-screen bg-zinc-950 text-white">
       {/* Hero Section */}
-      <section className="pt-32 pb-20 bg-black">
+      <section className="pt-32 pb-20 bg-gradient-to-br from-zinc-950 via-zinc-900 to-zinc-950">
         <div className="container mx-auto px-4 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -70,7 +70,7 @@ export default function AboutPage() {
       </section>
 
       {/* Company Overview */}
-      <section className="py-20 bg-gray-900">
+      <section className="py-20 bg-zinc-900">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <motion.div
@@ -108,7 +108,7 @@ export default function AboutPage() {
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <div className="bg-gray-800 rounded-2xl p-8 hover:bg-gray-700 hover:scale-105 transition-all duration-300 cursor-pointer">
+              <div className="bg-zinc-800 rounded-2xl p-8 hover:bg-zinc-700 hover:scale-105 transition-all duration-300 cursor-pointer border border-zinc-700/50 shadow-2xl">
                 <h3 className="text-2xl font-semibold text-white mb-6">Our Expertise</h3>
                 <div className="space-y-4">
                   <div className="flex items-center space-x-3">
@@ -139,7 +139,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-20 bg-gray-800">
+      <section className="py-20 bg-zinc-950">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -163,7 +163,7 @@ export default function AboutPage() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
               viewport={{ once: true }}
-              className="bg-gray-900 rounded-2xl p-8 hover:bg-gray-800 hover:scale-105 transition-all duration-300 cursor-pointer"
+              className="bg-zinc-900 rounded-2xl p-8 hover:bg-zinc-800 hover:scale-105 transition-all duration-300 cursor-pointer border border-zinc-700/30 shadow-xl"
             >
               <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mb-6">
                 <Target className="w-8 h-8 text-black" />
@@ -181,7 +181,7 @@ export default function AboutPage() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
               viewport={{ once: true }}
-              className="bg-gray-900 rounded-2xl p-8 hover:bg-gray-800 hover:scale-105 transition-all duration-300 cursor-pointer"
+              className="bg-zinc-900 rounded-2xl p-8 hover:bg-zinc-800 hover:scale-105 transition-all duration-300 cursor-pointer border border-zinc-700/30 shadow-xl"
             >
               <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mb-6">
                 <TrendingUp className="w-8 h-8 text-black" />
@@ -198,7 +198,7 @@ export default function AboutPage() {
       </section>
 
       {/* Core Values */}
-      <section className="py-20 bg-gray-900">
+      <section className="py-20 bg-zinc-900">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -223,7 +223,7 @@ export default function AboutPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: 0.2 + index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-gray-800 p-8 rounded-xl text-center hover:bg-gray-700 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer"
+                className="bg-zinc-800 p-8 rounded-xl text-center hover:bg-zinc-700 hover:scale-105 hover:shadow-xl transition-all duration-300 cursor-pointer border border-zinc-700/30 shadow-lg"
               >
                 <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6">
                   <value.icon className="w-8 h-8 text-black" />
@@ -237,7 +237,7 @@ export default function AboutPage() {
       </section>
 
       {/* Achievements */}
-      <section className="py-20 bg-gray-800">
+      <section className="py-20 bg-zinc-950">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -264,7 +264,7 @@ export default function AboutPage() {
                 viewport={{ once: true }}
                 className="text-center"
               >
-                <div className="bg-gray-900 rounded-2xl p-8 hover:bg-gray-800 hover:scale-105 transition-all duration-300 cursor-pointer">
+                <div className="bg-zinc-900 rounded-2xl p-8 hover:bg-zinc-800 hover:scale-105 transition-all duration-300 cursor-pointer border border-zinc-700/30 shadow-xl">
                   <div className="w-16 h-16 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6">
                     <achievement.icon className="w-8 h-8 text-black" />
                   </div>
@@ -278,7 +278,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gray-900">
+      <section className="py-20 bg-zinc-950">
         <div className="container mx-auto px-4 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
