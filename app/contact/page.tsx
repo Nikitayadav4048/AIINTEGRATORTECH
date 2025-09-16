@@ -62,19 +62,25 @@ export default function ContactPage() {
   return (
     <main className="min-h-screen bg-black text-white">
       {/* Hero Section */}
-      <section className="pt-32 pb-20">
-        <div className="container mx-auto px-4">
+      <section className="pt-32 pb-20 bg-gradient-to-br from-black via-green-900 to-gray-900 relative overflow-hidden">
+        <div className="absolute inset-0">
+          <div className="absolute top-0 left-0 w-72 h-72 bg-green-600/20 rounded-full blur-3xl animate-pulse"></div>
+          <div className="absolute bottom-0 right-0 w-96 h-96 bg-green-700/15 rounded-full blur-3xl animate-pulse"></div>
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <div className="w-20 h-20 bg-white rounded-2xl flex items-center justify-center mx-auto mb-6">
-              <Mail className="w-10 h-10 text-black" />
+            <div className="w-20 h-20 bg-gradient-to-r from-green-500 to-green-600 rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-lg shadow-green-500/30">
+              <Mail className="w-10 h-10 text-white" />
             </div>
-            <h1 className="text-5xl font-bold text-white mb-6">
-              Get In Touch
+            <h1 className="text-5xl font-bold mb-6">
+              <span className="bg-gradient-to-r from-green-400 via-green-500 to-green-600 bg-clip-text text-transparent">
+                Get In Touch
+              </span>
             </h1>
             <p className="text-xl text-gray-300 max-w-3xl mx-auto">
               Ready to transform your business with cutting-edge technology? 
@@ -85,7 +91,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Methods */}
-      <section className="py-20 bg-gray-900">
+      <section className="py-20 bg-green-900">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-white text-center mb-16">
             How Can We Help?
@@ -100,7 +106,7 @@ export default function ContactPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-gray-800 p-6 rounded-xl text-center hover:bg-gray-700 transition-colors group"
+                className="bg-green-800 p-6 rounded-xl text-center hover:bg-green-700 transition-all duration-300 group transform hover:scale-105 shadow-lg hover:shadow-green-500/20"
               >
                 <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                   <method.icon className="w-8 h-8 text-black" />
@@ -140,7 +146,7 @@ export default function ContactPage() {
               
               <div className="space-y-6 mb-8">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 bg-green-800 rounded-lg flex items-center justify-center">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -149,7 +155,7 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 bg-green-800 rounded-lg flex items-center justify-center">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -158,7 +164,7 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 bg-green-800 rounded-lg flex items-center justify-center">
                     <Clock className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -167,7 +173,7 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 bg-green-800 rounded-lg flex items-center justify-center">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -184,7 +190,7 @@ export default function ContactPage() {
                     <a
                       key={social.label}
                       href={social.href}
-                      className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-white hover:text-black transition-colors"
+                      className="w-10 h-10 bg-green-800 rounded-lg flex items-center justify-center hover:bg-green-600 hover:scale-110 transition-all duration-300"
                       aria-label={social.label}
                     >
                       <social.icon className="w-5 h-5" />
@@ -201,7 +207,7 @@ export default function ContactPage() {
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <form onSubmit={handleSubmit} className="bg-gray-900 p-8 rounded-xl">
+              <form onSubmit={handleSubmit} className="bg-green-900 p-8 rounded-xl shadow-xl border border-green-700/30">
                 <h3 className="text-2xl font-bold text-white mb-6">Send us a message</h3>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
@@ -286,11 +292,11 @@ export default function ContactPage() {
                   style={{
                     width: '100%',
                     padding: '16px 32px',
-                    backgroundColor: '#ffffff',
-                    color: '#000000',
+                    background: 'linear-gradient(135deg, #16a34a 0%, #15803d 100%)',
+                    color: '#ffffff',
                     fontWeight: 'bold',
                     borderRadius: '12px',
-                    border: '2px solid #d1d5db',
+                    border: 'none',
                     outline: 'none',
                     display: 'flex',
                     alignItems: 'center',
@@ -298,23 +304,23 @@ export default function ContactPage() {
                     gap: '8px',
                     cursor: 'pointer',
                     transition: 'all 0.3s ease',
-                    boxShadow: '0 4px 15px rgba(0, 0, 0, 0.1)'
+                    boxShadow: '0 8px 25px rgba(22, 163, 74, 0.3)'
                   }}
                   onMouseEnter={(e) => {
                     const target = e.target as HTMLButtonElement
-                    target.style.transform = 'scale(1.02)'
-                    target.style.backgroundColor = '#f9fafb'
-                    target.style.borderColor = '#9ca3af'
+                    target.style.transform = 'scale(1.05)'
+                    target.style.background = 'linear-gradient(135deg, #15803d 0%, #166534 100%)'
+                    target.style.boxShadow = '0 12px 35px rgba(22, 163, 74, 0.4)'
                   }}
                   onMouseLeave={(e) => {
                     const target = e.target as HTMLButtonElement
                     target.style.transform = 'scale(1)'
-                    target.style.backgroundColor = '#ffffff'
-                    target.style.borderColor = '#d1d5db'
+                    target.style.background = 'linear-gradient(135deg, #16a34a 0%, #15803d 100%)'
+                    target.style.boxShadow = '0 8px 25px rgba(22, 163, 74, 0.3)'
                   }}
                 >
-                  <Send className="w-5 h-5" style={{ color: '#000000' }} />
-                  <span style={{ color: '#000000', fontWeight: 'bold' }}>Send Message</span>
+                  <Send className="w-5 h-5" style={{ color: '#ffffff' }} />
+                  <span style={{ color: '#ffffff', fontWeight: 'bold' }}>Send Message</span>
                 </button>
               </form>
             </motion.div>
