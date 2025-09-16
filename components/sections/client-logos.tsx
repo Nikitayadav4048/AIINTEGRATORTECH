@@ -5,18 +5,18 @@ import Image from "next/image"
 
 const clients = [
   { name: "AccuAI", logo: "/logos/accuai.png" },
-  { name: "Anu", logo: "/logos/Anu.webp" },
+  // { name: "Anu", logo: "/logos/Anu.webp" },
   { name: "Finanza", logo: "/logos/finanza.svg" },
   { name: "Finanza Dashboard", logo: "/logos/finanzadash.svg" },
   { name: "Hafa", logo: "/logos/hafalogo.webp" },
-  { name: "Kanha", logo: "/logos/Kanha.webp" },
+  // { name: "Kanha", logo: "/logos/Kanha.webp" },
   { name: "Koffeetech", logo: "/logos/Koffeetech-Logo.png" },
   { name: "Ma Narmada Hospital", logo: "/logos/Ma Narmda  Hospital.png" },
   { name: "Orderfic", logo: "/logos/orderfic logo.webp" },
   { name: "Paper Bill", logo: "/logos/Paper Bill.png" },
   { name: "PiSwap", logo: "/logos/piswap.png" },
   { name: "Prashil Export", logo: "/logos/Prashil Export.png" },
-  { name: "Shrashti", logo: "/logos/Shrashti.webp" },
+  // { name: "Shrashti", logo: "/logos/Shrashti.webp" },
   { name: "The Grill", logo: "/logos/thegrill.jpg" },
   { name: "TMN India", logo: "/logos/tmnIndia.png" },
   { name: "Trees", logo: "/logos/Trees.svg" },
@@ -67,7 +67,7 @@ export function ClientLogos() {
                   alt={client.name}
                   width={120}
                   height={60}
-                  className="max-w-full max-h-full object-contain filter brightness-0 invert opacity-70 hover:opacity-100 transition-opacity"
+                  className="max-w-full max-h-full object-contain opacity-90 hover:opacity-100 transition-opacity"
                 />
               </div>
             ))}
