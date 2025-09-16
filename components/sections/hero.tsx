@@ -90,23 +90,23 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1.2 }}
-            className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto"
+            className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-4xl mx-auto"
           >
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">50+</div>
-              <div className="text-gray-300">Happy Clients</div>
+              <div className="text-2xl md:text-3xl font-bold text-white mb-1">50+</div>
+              <div className="text-gray-300 text-sm md:text-base">Happy Clients</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">35+</div>
-              <div className="text-gray-300">Projects</div>
+              <div className="text-2xl md:text-3xl font-bold text-white mb-1">35+</div>
+              <div className="text-gray-300 text-sm md:text-base">Projects</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">4.5+</div>
-              <div className="text-gray-300">Years Experience</div>
+              <div className="text-2xl md:text-3xl font-bold text-white mb-1">4.5+</div>
+              <div className="text-gray-300 text-sm md:text-base">Years Experience</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">7+</div>
-              <div className="text-gray-300">Countries</div>
+              <div className="text-2xl md:text-3xl font-bold text-white mb-1">7+</div>
+              <div className="text-gray-300 text-sm md:text-base">Countries</div>
             </div>
           </motion.div>
         </div>

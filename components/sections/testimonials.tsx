@@ -43,14 +43,14 @@ export function Testimonials() {
   }
 
   return (
-    <section className="py-20 bg-black">
+    <section className="py-12 md:py-20 bg-black">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center max-w-3xl mx-auto mb-12"
+          className="text-center max-w-3xl mx-auto mb-8 md:mb-12"
         >
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-white mb-4">
             What Our Clients Say
@@ -65,9 +65,9 @@ export function Testimonials() {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
-          className="max-w-3xl mx-auto mb-12"
+          className="max-w-3xl mx-auto mb-8 md:mb-12"
         >
-          <div className="bg-green-900 p-6 rounded-xl text-center">
+          <div className="bg-green-900 p-4 md:p-6 rounded-xl text-center">
             <div className="flex justify-center mb-4">
               {[...Array(testimonials[currentIndex].rating)].map((_, i) => (
                 <Star key={i} className="w-6 h-6 text-yellow-400 fill-current" />

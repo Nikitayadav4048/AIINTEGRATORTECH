@@ -26,19 +26,19 @@ const clients = [
 
 export function ClientLogos() {
   return (
-    <section className="py-16 bg-black">
+    <section className="py-8 md:py-16 bg-black">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center mb-12"
+          className="text-center mb-6 md:mb-12"
         >
-          <h2 className="text-2xl md:text-3xl font-semibold text-white mb-4">
+          <h2 className="text-xl md:text-3xl font-semibold text-white mb-3 md:mb-4">
             Trusted by Leading Companies
           </h2>
-          <p className="text-gray-300 max-w-2xl mx-auto">
+          <p className="text-sm md:text-base text-gray-300 max-w-2xl mx-auto">
             We're proud to work with innovative companies across various industries
           </p>
         </motion.div>
