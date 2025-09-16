@@ -106,7 +106,7 @@ export default function ContactPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-gray-800 p-6 rounded-xl text-center hover:bg-green-800 transition-all duration-300 group transform hover:scale-105 shadow-lg"
+                className="bg-green-800 p-6 rounded-xl text-center hover:bg-green-700 transition-all duration-300 group transform hover:scale-105 shadow-lg"
               >
                 <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                   <method.icon className="w-8 h-8 text-black" />
