@@ -139,7 +139,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-20 bg-zinc-800">
+      <section className="py-20 bg-zinc-950">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -198,7 +198,7 @@ export default function AboutPage() {
       </section>
 
       {/* Core Values */}
-      <section className="py-20 bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-900">
+      <section className="py-20 bg-zinc-900">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -237,7 +237,7 @@ export default function AboutPage() {
       </section>
 
       {/* Achievements */}
-      <section className="py-20 bg-gray-800">
+      <section className="py-20 bg-zinc-950">
         <div className="container mx-auto px-4">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -278,7 +278,7 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gray-900">
+      <section className="py-20 bg-zinc-900">
         <div className="container mx-auto px-4 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
