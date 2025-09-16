@@ -31,9 +31,9 @@ export function Hero() {
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
-            className="mb-12"
+            className="mb-8"
           >
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-tight text-white">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-white">
               Transform Your Business
               <br />
               <span className="gradient-text-animated">
@@ -46,9 +46,9 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.6 }}
-            className="mb-20"
+            className="mb-12"
           >
-            <p className="text-xl sm:text-2xl text-gray-300 leading-relaxed max-w-5xl mx-auto">
+            <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed max-w-4xl mx-auto">
               We specialize in creating innovative technology solutions that drive business growth. 
               From custom software development to AI integration, we help companies stay ahead of the curve.
             </p>
@@ -58,7 +58,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.9 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
+            className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
           >
             <button 
               onClick={() => router.push('/contact')}
