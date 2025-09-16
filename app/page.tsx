@@ -10,8 +10,15 @@ export default function HomePage() {
       <Hero />
       <Features />
       <Testimonials />
-      <FAQ />
-      <CTA />
+      <div className="hidden md:block">
+        <FAQ />
+      </div>
+      <div className="block md:hidden">
+        <CTA />
+      </div>
+      <div className="hidden md:block">
+        <CTA />
+      </div>
     </div>
   )
 }
