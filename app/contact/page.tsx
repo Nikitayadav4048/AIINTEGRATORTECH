@@ -91,7 +91,7 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Methods */}
-      <section className="py-20 bg-green-900">
+      <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-white text-center mb-16">
             How Can We Help?
@@ -106,7 +106,7 @@ export default function ContactPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 viewport={{ once: true }}
-                className="bg-green-800 p-6 rounded-xl text-center hover:bg-green-700 transition-all duration-300 group transform hover:scale-105 shadow-lg hover:shadow-green-500/20"
+                className="bg-gray-800 p-6 rounded-xl text-center hover:bg-green-800 transition-all duration-300 group transform hover:scale-105 shadow-lg"
               >
                 <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
                   <method.icon className="w-8 h-8 text-black" />
@@ -146,7 +146,7 @@ export default function ContactPage() {
               
               <div className="space-y-6 mb-8">
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-green-800 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -155,7 +155,7 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-green-800 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -164,7 +164,7 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-green-800 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center">
                     <Clock className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -173,7 +173,7 @@ export default function ContactPage() {
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <div className="w-12 h-12 bg-green-800 rounded-lg flex items-center justify-center">
+                  <div className="w-12 h-12 bg-gray-800 rounded-lg flex items-center justify-center">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -190,7 +190,7 @@ export default function ContactPage() {
                     <a
                       key={social.label}
                       href={social.href}
-                      className="w-10 h-10 bg-green-800 rounded-lg flex items-center justify-center hover:bg-green-600 hover:scale-110 transition-all duration-300"
+                      className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-green-700 hover:scale-110 transition-all duration-300"
                       aria-label={social.label}
                     >
                       <social.icon className="w-5 h-5" />
@@ -207,7 +207,7 @@ export default function ContactPage() {
               transition={{ duration: 0.8, delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <form onSubmit={handleSubmit} className="bg-green-900 p-8 rounded-xl shadow-xl border border-green-700/30">
+              <form onSubmit={handleSubmit} className="bg-gray-900 p-8 rounded-xl shadow-xl border border-gray-700">
                 <h3 className="text-2xl font-bold text-white mb-6">Send us a message</h3>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
