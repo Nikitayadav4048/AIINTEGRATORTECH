@@ -30,7 +30,7 @@ export function Footer() {
   ]
 
   return (
-    <footer className="bg-gray-900 border-t border-gray-800">
+    <footer className="bg-green-900 border-t border-green-800">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -118,7 +118,7 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-green-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm">
             © {currentYear} AI INTEGRATOR TECH. All rights reserved.
           </p>
