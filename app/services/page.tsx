@@ -163,7 +163,8 @@ export default function ServicesPage() {
       {/* Services Grid */}
       <section className="py-20 bg-gray-900">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Desktop Grid */}
+          <div className="hidden md:grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <motion.div
                 key={service.id}
@@ -204,6 +205,53 @@ export default function ServicesPage() {
                 </div>
               </motion.div>
             ))}
+          </div>
+          
+          {/* Mobile Horizontal Scroll */}
+          <div className="md:hidden overflow-x-auto">
+            <div className="flex space-x-6 pb-4" style={{width: 'max-content'}}>
+              {services.map((service, index) => (
+                <motion.div
+                  key={service.id}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: index * 0.1 }}
+                  viewport={{ once: true }}
+                  className="bg-gray-800 p-6 rounded-xl cursor-pointer hover:bg-gray-700 transition-colors flex-shrink-0"
+                  style={{width: '280px'}}
+                  onClick={() => router.push(`/services/${service.id}`)}
+                >
+                  <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center mx-auto mb-4">
+                    <service.icon className="w-6 h-6 text-black" />
+                  </div>
+                  <h3 className="text-lg font-semibold text-white text-center mb-3">
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-300 text-center text-sm mb-4">
+                    {service.description}
+                  </p>
+                  
+                  <div className="mb-4">
+                    <h4 className="font-semibold text-white mb-2 text-sm">Key Features:</h4>
+                    <div className="space-y-1">
+                      {service.features.slice(0, 3).map((feature, idx) => (
+                        <div key={idx} className="flex items-center space-x-2">
+                          <CheckCircle className="w-3 h-3 text-green-400 flex-shrink-0" />
+                          <span className="text-xs text-gray-300">{feature}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  <div className="bg-gray-900 p-3 rounded-lg">
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-medium text-gray-300">Delivery:</span>
+                      <span className="text-sm font-semibold text-white">{service.deliveryRate}</span>
+                    </div>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
