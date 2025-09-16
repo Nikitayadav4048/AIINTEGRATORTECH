@@ -5,7 +5,7 @@ import { CTA } from "@/components/sections/cta"
 
 export default function HomePage() {
   return (
-    <div className="bg-zinc-950 min-h-screen text-white">
+    <div className="bg-black min-h-screen text-white">
       <Hero />
       <Features />
       <Testimonials />

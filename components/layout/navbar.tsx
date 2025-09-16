@@ -57,8 +57,8 @@ export function Navbar() {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
         isScrolled
-          ? "bg-zinc-900/95 backdrop-blur-md shadow-2xl border-b border-zinc-700/50"
-          : "bg-zinc-950/80 backdrop-blur-sm"
+          ? "bg-theme-primary/95 backdrop-blur-md shadow-lg border-b border-theme"
+          : "bg-transparent"
       )}
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -162,7 +162,7 @@ export function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="lg:hidden bg-zinc-900/95 backdrop-blur-md border-t border-zinc-700/50"
+            className="lg:hidden bg-theme-primary border-t border-theme"
           >
             <div className="container mx-auto px-4 py-4 space-y-2">
               {navigation.map((item) => (
