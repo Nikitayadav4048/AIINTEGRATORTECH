@@ -80,10 +80,10 @@ export function Navbar() {
             </motion.div>
             <div className="flex flex-col">
               <span className="text-xl lg:text-2xl font-bold text-theme-primary group-hover:text-primary-600 transition-colors duration-300">
-                AI INTEGRATOR TECH
+                AI INTEGRATORZ
               </span>
               <span className="text-xs lg:text-sm text-theme-secondary font-medium">
-                Intelligence. Integration. Impact.
+                WE DESIGN WE DEVELOP WE DEPLOY
               </span>
             </div>
           </Link>

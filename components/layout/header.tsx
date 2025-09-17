@@ -28,13 +28,16 @@ export function Header() {
             <div className="w-10 h-10 relative overflow-hidden rounded-lg bg-white/10 p-1">
               <Image
                 src="/Integratorz.jpg"
-                alt="AI INTEGRATOR TECH Logo"
+                alt="AI INTEGRATORZ Logo"
                 fill
                 className="object-contain rounded-md"
                 priority
               />
             </div>
-            <span className="text-white font-semibold text-lg hidden sm:block">AI INTEGRATOR TECH</span>
+            <div className="hidden sm:block">
+              <div className="text-white font-semibold text-lg">AI INTEGRATORZ</div>
+              <div className="text-xs text-gray-400 font-medium">WE DESIGN WE DEVELOP WE DEPLOY</div>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
