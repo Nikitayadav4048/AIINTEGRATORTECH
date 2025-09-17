@@ -2,47 +2,47 @@
   "testimonials": [
     {
       "id": 1,
-      "name": "Sarah Johnson",
+      "name": "Amit Kumar",
       "role": "CEO",
-      "company": "TechFlow Inc.",
-      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
-      "content": "This platform has completely transformed how we manage our projects. The analytics and collaboration features are game-changing for our team.",
+      "company": "Orderfic",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "content": "Their food delivery app solution with AI route optimization has transformed our business. Order processing time reduced by 40% and customer ratings improved to 4.8 stars. Highly recommended!",
       "rating": 5
     },
     {
       "id": 2,
-      "name": "Michael Chen",
-      "role": "Product Manager",
-      "company": "InnovateCorp",
+      "name": "Rajesh Agarwal",
+      "role": "Founder",
+      "company": "Paper Bill",
       "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-      "content": "The ease of use and powerful features make this our go-to solution. Our productivity has increased by 40% since switching.",
+      "content": "The digital billing solution has revolutionized our accounting process. Automated invoice generation and payment tracking have saved us 20 hours per week. Outstanding development quality!",
       "rating": 5
     },
     {
       "id": 3,
-      "name": "Emily Rodriguez",
-      "role": "Design Lead",
-      "company": "Creative Studio",
-      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
-      "content": "As a design team, we need tools that are both powerful and intuitive. This platform delivers on both fronts perfectly.",
+      "name": "Priya Sharma",
+      "role": "Co-Founder",
+      "company": "Trider",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+      "content": "The ride-sharing platform they built is incredibly robust and user-friendly. Real-time tracking and smart matching algorithms have increased our rider satisfaction by 65%. Exceptional work!",
       "rating": 5
     },
     {
       "id": 4,
-      "name": "David Kim",
-      "role": "CTO",
-      "company": "StartupXYZ",
-      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-      "content": "The API integration capabilities and scalability have been crucial for our rapid growth. Highly recommended for startups.",
+      "name": "Neha Gupta",
+      "role": "Founder",
+      "company": "Unik Naturals",
+      "avatar": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=150&h=150&fit=crop&crop=face",
+      "content": "Their e-commerce platform with AI product recommendations has boosted our organic products sales by 60%. The customer analytics dashboard provides invaluable insights for our marketing strategy.",
       "rating": 5
     },
     {
       "id": 5,
-      "name": "Lisa Thompson",
-      "role": "Operations Director",
-      "company": "Global Solutions",
-      "avatar": "https://images.unsplash.com/photo-1487412720507-e7f376ba33cb?w=150&h=150&fit=crop&crop=face",
-      "content": "Managing multiple teams across different time zones has never been easier. The collaboration tools are exceptional.",
+      "name": "Vikram Singh",
+      "role": "CTO",
+      "company": "AccuAI",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=face",
+      "content": "The AI-powered business intelligence platform has transformed our decision-making process. Predictive analytics and automated reporting have improved our operational efficiency by 45%.",
       "rating": 5
     }
   ]
