@@ -92,28 +92,8 @@ export function Hero() {
             transition={{ duration: 1, delay: 1.2 }}
             className="px-4"
           >
-            {/* Mobile: 2x2 Grid */}
-            <div className="grid grid-cols-2 gap-4 sm:hidden max-w-xs mx-auto">
-              <div className="bg-white/10 rounded-lg p-3 text-center backdrop-blur-sm">
-                <div className="text-xl font-bold text-white mb-1">50+</div>
-                <div className="text-gray-300 text-xs">Happy Clients</div>
-              </div>
-              <div className="bg-white/10 rounded-lg p-3 text-center backdrop-blur-sm">
-                <div className="text-xl font-bold text-white mb-1">35+</div>
-                <div className="text-gray-300 text-xs">Projects</div>
-              </div>
-              <div className="bg-white/10 rounded-lg p-3 text-center backdrop-blur-sm">
-                <div className="text-xl font-bold text-white mb-1">4.5+</div>
-                <div className="text-gray-300 text-xs">Years Experience</div>
-              </div>
-              <div className="bg-white/10 rounded-lg p-3 text-center backdrop-blur-sm">
-                <div className="text-xl font-bold text-white mb-1">7+</div>
-                <div className="text-gray-300 text-xs">Countries</div>
-              </div>
-            </div>
-            
-            {/* Desktop: 1x4 Grid */}
-            <div className="hidden sm:grid grid-cols-4 gap-6 md:gap-8 max-w-4xl mx-auto mb-8 sm:mb-0">
+            {/* Stats Grid */}
+            <div className="hidden sm:grid grid-cols-4 gap-6 md:gap-8 max-w-4xl mx-auto">
               <div className="text-center">
                 <div className="text-2xl md:text-3xl font-bold text-white mb-1">50+</div>
                 <div className="text-gray-300 text-sm md:text-base">Happy Clients</div>
