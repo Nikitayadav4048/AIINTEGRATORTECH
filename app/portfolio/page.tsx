@@ -3,6 +3,7 @@
 import { motion } from "framer-motion"
 import { ExternalLink, Github } from "lucide-react"
 import { ClientLogos } from "@/components/sections/client-logos"
+import { Projects } from "@/components/sections/projects"
 
 const projects = [
   {
@@ -110,6 +111,7 @@ export default function PortfolioPage() {
         </div>
       </section>
       
+      <Projects />
       <ClientLogos />
     </main>
   )
