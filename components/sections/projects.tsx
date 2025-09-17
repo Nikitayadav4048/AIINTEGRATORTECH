@@ -37,7 +37,7 @@ export function Projects() {
   }
 
   return (
-    <section className="py-8 md:py-12 bg-black">
+    <section className="py-8 md:py-12 bg-green-900">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -57,16 +57,16 @@ export function Projects() {
         <div className="relative">
           <button
             onClick={() => scroll('left')}
-            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 rounded-full p-2 transition-colors"
+            className="absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-black hover:bg-gray-800 rounded-full p-3 transition-colors shadow-lg"
           >
-            <ChevronLeft className="w-5 h-5 text-white" />
+            <ChevronLeft className="w-6 h-6 text-white" />
           </button>
           
           <button
             onClick={() => scroll('right')}
-            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 rounded-full p-2 transition-colors"
+            className="absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-black hover:bg-gray-800 rounded-full p-3 transition-colors shadow-lg"
           >
-            <ChevronRight className="w-5 h-5 text-white" />
+            <ChevronRight className="w-6 h-6 text-white" />
           </button>
 
           <div 
@@ -83,8 +83,8 @@ export function Projects() {
                 viewport={{ once: true }}
                 className="flex-shrink-0 w-32 md:w-40 group"
               >
-                <div className="bg-white/5 rounded-lg p-3 hover:bg-white/10 transition-all duration-200 hover:scale-105">
-                  <div className="aspect-square relative overflow-hidden rounded bg-white/5">
+                <div className="bg-black rounded-lg p-3 hover:bg-gray-900 transition-all duration-200 hover:scale-105 shadow-lg">
+                  <div className="aspect-square relative overflow-hidden rounded bg-white/10">
                     <Image
                       src={project.image}
                       alt={project.name}
