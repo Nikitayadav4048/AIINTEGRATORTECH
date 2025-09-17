@@ -20,7 +20,28 @@ const projects = [
   { name: "Suddh Pani", image: "/projects/Suddh Pani.svg" },
   { name: "Treesh TV", image: "/projects/Treesh Tv.PNG" },
   { name: "Trider", image: "/projects/Trider.png" },
-  { name: "Wizplay", image: "/projects/wizplay.PNG" }
+  { name: "Wizplay", image: "/projects/wizplay.PNG" },
+  { name: "EcoTech Solutions", image: "/projects/ecotech-solutions.jpeg" },
+  { name: "FinanceHub Pro", image: "/projects/financehub-pro.jpeg" },
+  { name: "SmartLogistics", image: "/projects/smart-logistics.jpeg" },
+  { name: "HealthCare Plus", image: "/projects/healthcare-plus.jpeg" },
+  { name: "RetailMax", image: "/projects/retail-max.jpeg" },
+  { name: "TechVision", image: "/projects/tech-vision.jpeg" },
+  { name: "CloudSync", image: "/projects/cloud-sync.jpeg" },
+  { name: "DataFlow", image: "/projects/data-flow.jpeg" },
+  { name: "InnovateLab", image: "/projects/innovate-lab.jpeg" },
+  { name: "SecureNet", image: "/projects/secure-net.jpeg" },
+  { name: "AutoMate", image: "/projects/auto-mate.jpeg" },
+  { name: "WebCraft", image: "/projects/web-craft.jpeg" },
+  { name: "MobileTech", image: "/projects/mobile-tech.jpeg" },
+  { name: "DigitalCore", image: "/projects/digital-core.jpeg" },
+  { name: "NextGen App", image: "/projects/nextgen-app.jpeg" },
+  { name: "ProSuite", image: "/projects/pro-suite.jpeg" },
+  { name: "TechBridge", image: "/projects/tech-bridge.jpeg" },
+  { name: "SmartBiz", image: "/projects/smart-biz.jpeg" },
+  { name: "Scalyx", image: "/projects/scalyx.jpeg" },
+  { name: "Banniya", image: "/projects/banniya.jpeg" },
+  { name: "Time Now India", image: "/projects/time-now-india.jpeg" }
 ]
 
 export function Projects() {

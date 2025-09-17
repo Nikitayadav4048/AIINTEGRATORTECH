@@ -59,7 +59,7 @@ export default function AboutPage() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-5xl font-bold text-white mb-6">
-              About AI INTEGRATOR TECH
+              About AI INTEGRATORZ
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-4xl mx-auto">
               We are a forward-thinking IT company dedicated to transforming businesses through innovative technology solutions. 
@@ -84,7 +84,7 @@ export default function AboutPage() {
               </h2>
               <p className="text-lg text-gray-300 mb-6">
                 Founded with a vision to bridge the gap between complex technology and business needs, 
-                AI INTEGRATOR TECH has grown into a trusted partner for organizations seeking digital excellence.
+                AI INTEGRATORZ has grown into a trusted partner for organizations seeking digital excellence.
               </p>
               <p className="text-lg text-gray-300 mb-6">
                 We specialize in custom software development, enterprise solutions, and digital innovation, 

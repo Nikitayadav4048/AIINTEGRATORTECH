@@ -9,22 +9,22 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://aiintegratorz.com'),
-  title: "AI INTEGRATOR TECH - Intelligence. Integration. Impact.",
+  title: "AI INTEGRATORZ - WE DESIGN WE DEVELOP WE DEPLOY",
   description: "Your trusted partner for comprehensive IT solutions and product development. We build custom software, web applications, and enterprise solutions that drive business growth.",
   keywords: ["IT services", "software development", "web development", "ERP solutions", "CRM solutions", "AI integration", "cloud solutions", "product development"],
-  authors: [{ name: "AI INTEGRATOR TECH Team" }],
-  creator: "AI INTEGRATOR TECH",
+  authors: [{ name: "AI INTEGRATORZ Team" }],
+  creator: "AI INTEGRATORZ",
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://aiintegratorz.com",
-    title: "AI INTEGRATOR TECH - Intelligence. Integration. Impact.",
+    title: "AI INTEGRATORZ - WE DESIGN WE DEVELOP WE DEPLOY",
     description: "Your trusted partner for comprehensive IT solutions and product development.",
-    siteName: "AI INTEGRATOR TECH",
+    siteName: "AI INTEGRATORZ",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI INTEGRATOR TECH - Intelligence. Integration. Impact.",
+    title: "AI INTEGRATORZ - WE DESIGN WE DEVELOP WE DEPLOY",
     description: "Your trusted partner for comprehensive IT solutions and product development.",
   },
 }

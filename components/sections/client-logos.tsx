@@ -21,7 +21,9 @@ const clients = [
   { name: "TMN India", logo: "/logos/tmnIndia.png" },
   { name: "Trees", logo: "/logos/Trees.svg" },
   { name: "Trider", logo: "/logos/trider-logo.png" },
-  { name: "Unik Naturals", logo: "/logos/unik naturals.png" }
+  { name: "Unik Naturals", logo: "/logos/unik naturals.png" },
+  { name: "Baniya", logo: "/logos/baniya.jpeg" },
+  { name: "Frame", logo: "/logos/Frame.png" }
 ]
 
 export function ClientLogos() {

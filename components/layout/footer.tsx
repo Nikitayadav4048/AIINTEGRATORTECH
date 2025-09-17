@@ -39,12 +39,12 @@ export function Footer() {
               <div className="w-10 h-10 relative overflow-hidden rounded-lg bg-white/10 p-1">
                 <Image
                   src="/Integratorz.jpg"
-                  alt="AI INTEGRATOR TECH Logo"
+                  alt="AI INTEGRATORZ Logo"
                   fill
                   className="object-contain rounded-md"
                 />
               </div>
-              <span className="text-white font-semibold text-lg">AI INTEGRATOR TECH</span>
+              <span className="text-white font-semibold text-lg">AI INTEGRATORZ</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Your trusted partner for comprehensive IT solutions and product development. 
@@ -103,33 +103,31 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail size={16} className="text-gray-400" />
-                <span className="text-gray-400 text-sm">info@aiintegratorz.com</span>
+                <span className="text-gray-400 text-sm">info.aiintegratorz@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone size={16} className="text-gray-400" />
-                <span className="text-gray-400 text-sm">+1 (555) 123-4567</span>
+                <span className="text-gray-400 text-sm">+91 6264601696, +91 7049820057</span>
               </div>
-              <div className="flex items-center space-x-3">
-                <MapPin size={16} className="text-gray-400" />
-                <span className="text-gray-400 text-sm">Global Remote Team</span>
+              <div className="space-y-2">
+                <div className="flex items-start space-x-3">
+                  <MapPin size={16} className="text-gray-400 mt-0.5" />
+                  <div className="text-gray-400 text-sm">
+                    <div>31/1 LIG Square Indore</div>
+                    <div className="mt-1">Head Quarter: 16/18 Mortie Stand, Canberra 2601, Australia</div>
+                    <div className="mt-1">3, Perdana 6/17, Pandan, 55300, Kuala Lumpur, Malaysia</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-green-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-green-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © {currentYear} AI INTEGRATOR TECH. All rights reserved.
+            © {currentYear} AI INTEGRATORZ. All rights reserved.
           </p>
-          <div className="flex space-x-6 mt-4 md:mt-0">
-            <Link href="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
-              Privacy Policy
-            </Link>
-            <Link href="/terms" className="text-gray-400 hover:text-white text-sm transition-colors duration-200">
-              Terms of Service
-            </Link>
-          </div>
         </div>
       </div>
     </footer>
