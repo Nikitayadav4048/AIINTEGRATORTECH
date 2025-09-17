@@ -9,15 +9,15 @@ const contactMethods = [
     icon: Mail,
     title: "Email Us",
     description: "Send us an email anytime",
-    contact: "info@aiintegratorz.com",
-    action: "mailto:info@aiintegratorz.com"
+    contact: "info.aiintegratorz@gmail.com",
+    action: "mailto:info.aiintegratorz@gmail.com"
   },
   {
     icon: Phone,
     title: "Call Us",
     description: "Mon-Fri from 8am to 5pm",
-    contact: "+1 (555) 123-4567",
-    action: "tel:+15551234567"
+    contact: "+91 6264601696 / +91 7049820057",
+    action: "tel:+916264601696"
   },
   {
     icon: MessageSquare,
@@ -151,7 +151,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-white font-medium">Email</p>
-                    <p className="text-gray-300">info@aiintegratorz.com</p>
+                    <p className="text-gray-300">info.aiintegratorz@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -160,7 +160,10 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-white font-medium">Phone</p>
-                    <p className="text-gray-300">+1 (555) 123-4567</p>
+                    <div className="text-gray-300">
+                      <p>+91 6264601696</p>
+                      <p>+91 7049820057</p>
+                    </div>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
