@@ -7,7 +7,7 @@ const clients = [
   { name: "AccuAI", logo: "/logos/accuai.png" },
   // { name: "Anu", logo: "/logos/Anu.webp" },
   { name: "Finanza", logo: "/logos/finanza.svg" },
-  { name: "Finanza Dashboard", logo: "/logos/finanzadash.svg" },
+  // { name: "Finanza Dashboard", logo: "/logos/finanzadash.svg" },
   { name: "Hafa", logo: "/logos/hafalogo.webp" },
   // { name: "Kanha", logo: "/logos/Kanha.webp" },
   { name: "Koffeetech", logo: "/logos/Koffeetech-Logo.png" },
@@ -28,7 +28,7 @@ const clients = [
 
 export function ClientLogos() {
   return (
-    <section className="py-8 md:py-16 bg-black">
+    <section className="py-8 md:py-16 bg-black mt-8 sm:mt-0">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
