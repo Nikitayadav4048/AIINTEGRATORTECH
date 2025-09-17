@@ -113,7 +113,7 @@ export function Footer() {
                 <div className="flex items-start space-x-3">
                   <MapPin size={16} className="text-gray-400 mt-0.5" />
                   <div className="text-gray-400 text-sm">
-                    <div>31/1 LIG Square Indore</div>
+                    <div>31/1 LIG Square Indore Madhya Pradesh India</div>
                     <div className="mt-1">Head Quarter: 16/18 Mortie Stand, Canberra 2601, Australia</div>
                     <div className="mt-1">3, Perdana 6/17, Pandan, 55300, Kuala Lumpur, Malaysia</div>
                   </div>

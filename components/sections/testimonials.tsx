@@ -7,27 +7,33 @@ import { ArrowLeft, ArrowRight, Star } from "lucide-react"
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    role: "CTO",
-    company: "TechCorp Solutions",
+    project: "ERP Solution",
     rating: 5,
-    content: "AI INTEGRATOR TECH transformed our business operations with their custom ERP solution. The team's expertise helped us automate 70% of our manual processes.",
+    content: "Outstanding work on our enterprise system. The team delivered exactly what we needed and helped automate our entire workflow.",
   },
   {
     id: 2,
-    name: "Michael Chen",
-    role: "Founder & CEO", 
-    company: "InnovateLab",
+    project: "E-commerce Platform",
     rating: 5,
-    content: "Working with AI INTEGRATOR TECH was a game-changer for our startup. They built a scalable web platform that helped us secure Series A funding.",
+    content: "Professional development team that understood our requirements perfectly. The platform they built increased our sales by 60%.",
   },
   {
     id: 3,
-    name: "Emily Rodriguez",
-    role: "Operations Director",
-    company: "Global Retail Inc",
+    project: "Mobile App Development",
     rating: 5,
-    content: "The CRM solution they developed revolutionized our customer management. Sales increased by 40% within the first quarter.",
+    content: "Excellent mobile app with great user experience. The team was responsive and delivered on time with quality results.",
+  },
+  {
+    id: 4,
+    project: "CRM System",
+    rating: 5,
+    content: "Game-changing CRM solution that streamlined our customer management. Highly recommend their expertise and professionalism.",
+  },
+  {
+    id: 5,
+    project: "Web Development",
+    rating: 5,
+    content: "Modern, responsive website that perfectly represents our brand. The team's attention to detail was impressive throughout.",
   }
 ]
 
@@ -43,19 +49,19 @@ export function Testimonials() {
   }
 
   return (
-    <section className="py-12 md:py-20 bg-black">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-8 md:py-16 bg-black">
+      <div className="container mx-auto px-6 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="text-center max-w-3xl mx-auto mb-8 md:mb-12"
+          className="text-center max-w-3xl mx-auto mb-6 md:mb-10"
         >
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-white mb-4">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-white mb-3">
             What Our Clients Say
           </h2>
-          <p className="text-lg text-gray-300 leading-relaxed">
+          <p className="text-sm md:text-base text-gray-300 leading-relaxed">
             Don't just take our word for it. Here's what our clients have to say about their experience.
           </p>
         </motion.div>
@@ -65,25 +71,22 @@ export function Testimonials() {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.5 }}
-          className="max-w-3xl mx-auto mb-8 md:mb-12"
+          className="max-w-3xl mx-auto mb-6 md:mb-10"
         >
           <div className="bg-green-900 p-4 md:p-6 rounded-xl text-center">
-            <div className="flex justify-center mb-4">
+            <div className="flex justify-center mb-3">
               {[...Array(testimonials[currentIndex].rating)].map((_, i) => (
-                <Star key={i} className="w-6 h-6 text-yellow-400 fill-current" />
+                <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
               ))}
             </div>
-            <p className="text-lg text-white mb-4 leading-relaxed">
+            <p className="text-sm md:text-base text-white mb-3 leading-relaxed">
               "{testimonials[currentIndex].content}"
             </p>
             <div className="flex items-center justify-center">
               <div>
-                <h4 className="text-base font-semibold text-white">
-                  {testimonials[currentIndex].name}
+                <h4 className="text-sm md:text-base font-semibold text-white">
+                  {testimonials[currentIndex].project}
                 </h4>
-                <p className="text-sm text-gray-300">
-                  {testimonials[currentIndex].role} at {testimonials[currentIndex].company}
-                </p>
               </div>
             </div>
           </div>

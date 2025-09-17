@@ -10,7 +10,7 @@ export function Hero() {
   const router = useRouter()
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-black via-green-900 to-gray-900 pt-32">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-black via-green-900 to-gray-900 pt-20 sm:pt-32">
       {/* Animated Background */}
       <div className="absolute inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-br from-black/80 via-green-800/30 to-gray-900/80"></div>
@@ -37,13 +37,13 @@ export function Hero() {
         </div>
       </div>
       
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+      <div className="container mx-auto px-6 sm:px-6 lg:px-8 relative z-20">
         <div className="text-center max-w-7xl mx-auto">
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.3 }}
-            className="mb-8"
+            className="mb-6 sm:mb-8"
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold leading-tight text-white">
               Transform Your Business
@@ -58,7 +58,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.6 }}
-            className="mb-12"
+            className="mb-8 sm:mb-12"
           >
             <p className="text-base sm:text-lg md:text-xl text-gray-300 leading-relaxed max-w-4xl mx-auto">
               We specialize in creating innovative technology solutions that drive business growth. 
@@ -70,7 +70,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.9 }}
-            className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
+            className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mb-8 sm:mb-12"
           >
             <button 
               onClick={() => router.push('/contact')}
@@ -90,7 +90,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 1.2 }}
-            className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-4xl mx-auto"
+            className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-4 md:gap-8 max-w-4xl mx-auto"
           >
             <div className="text-center">
               <div className="text-2xl md:text-3xl font-bold text-white mb-1">50+</div>
