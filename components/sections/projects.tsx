@@ -6,11 +6,38 @@ import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useRef } from "react"
 
 const projects = [
-  { name: "Orderfic", image: "/projects/orderfic.webp" },
+  { name: "Assure Efforts", image: "/projects/Assure Efforts.svg" },
+  { name: "Bernie Beast", image: "/projects/bernie-beast.webp" },
+  { name: "Energicity", image: "/projects/Energicity.PNG" },
   { name: "Paper Bill", image: "/projects/feature PaperBill.png" },
+  { name: "FTC Solar", image: "/projects/FTC Solar.PNG" },
+  { name: "Miniflix", image: "/projects/Miniflix.PNG" },
+  { name: "Oasis Property", image: "/projects/oasis Property.PNG" },
+  { name: "Orderfic", image: "/projects/orderfic.webp" },
+  { name: "Pure Pani", image: "/projects/Pure Pani.PNG" },
+  { name: "Repair Expert", image: "/projects/Repair Expert.PNG" },
+  { name: "Simple Dairy", image: "/projects/Simple Dairy.webp" },
+  { name: "Suddh Pani", image: "/projects/Suddh Pani.svg" },
+  { name: "Treesh TV", image: "/projects/Treesh Tv.PNG" },
   { name: "Trider", image: "/projects/Trider.png" },
+  { name: "Wizplay", image: "/projects/wizplay.PNG" },
+  { name: "JBM Mart", image: "/projects/ecotech-solutions.jpeg" },
+  { name: "Kirana Bazzar", image: "/projects/financehub-pro.jpeg" },
+  { name: "Time Now India", image: "/projects/smart-logistics.jpeg" },
+  { name: "Treesh", image: "/projects/healthcare-plus.jpeg" },
+  { name: "Kartheory", image: "/projects/retail-max.jpeg" },
+  { name: "Surplus Loyalty", image: "/projects/tech-vision.jpeg" },
   { name: "Unik Naturals", image: "/projects/cloud-sync.jpeg" },
-  { name: "AccuAI", image: "/projects/data-flow.jpeg" }
+  { name: "AccuAI", image: "/projects/data-flow.jpeg" },
+  { name: "MG & CO", image: "/projects/secure-net.jpeg" },
+  { name: "PaperBill", image: "/projects/web-craft.jpeg" },
+  { name: "My Business", image: "/projects/mobile-tech.jpeg" },
+  { name: "Coffee Been", image: "/projects/nextgen-app.jpeg" },
+  { name: "Plus++", image: "/projects/pro-suite.jpeg" },
+  { name: "TechBridge", image: "/projects/tech-bridge.jpeg" },
+  { name: "SmartBiz", image: "/projects/smart-biz.jpeg" },
+  { name: "Scalyx", image: "/projects/scalyx.jpeg" },
+  { name: "Banniya", image: "/projects/baniya-bandhu.jpeg" }
 ]
 
 export function Projects() {
